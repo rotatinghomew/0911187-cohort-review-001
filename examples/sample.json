@@ -1,20 +1,26 @@
 [
   {
-    "id": "sample-1",
-    "period": "2026-S1",
-    "group": "A",
-    "value": 2
+    "student_id": "s-101",
+    "entry_date": "2025-09-01",
+    "admission_source": "统考",
+    "entry_month": "2025-09",
+    "stable_direction_date": "2026-05-18",
+    "stages": [{"name": "开题", "status": "observed"}, {"name": "中期", "status": "pending"}]
   },
   {
-    "id": "sample-2",
-    "period": "2026-S1",
-    "group": "A",
-    "value": null
+    "student_id": "s-102",
+    "entry_date": "2025-09-15",
+    "admission_source": "统考",
+    "entry_month": "2025-09",
+    "stable_direction_date": null,
+    "stages": [{"name": "开题", "status": "pending"}]
   },
   {
-    "id": "sample-3",
-    "period": "2026-S2",
-    "group": "B",
-    "value": 4
+    "student_id": "s-201",
+    "entry_date": "2025-10-01",
+    "admission_source": "推免",
+    "entry_month": "2025-10",
+    "stable_direction_date": "2026-04-04",
+    "stages": [{"name": "开题", "status": "observed"}]
   }
 ]
